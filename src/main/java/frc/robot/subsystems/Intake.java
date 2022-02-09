@@ -42,6 +42,7 @@ public class Intake extends SubsystemBase {
 
 	private final DigitalInput m_whiskerSensor = new DigitalInput(WHISKER_SENSOR_DIO_PORT);
 
+	// TODO: Fix feeder
 	private final WPI_TalonSRX m_feederMotor = new WPI_TalonSRX(FEEDER_CAN_ID);
 	private final WPI_TalonFX m_retractorMotor = new WPI_TalonFX(RETRACT_CAN_ID);
 
